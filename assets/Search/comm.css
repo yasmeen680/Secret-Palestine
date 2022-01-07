@@ -1,0 +1,49 @@
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 30px;
+	height: 41px;
+}
+
+.btn {
+	font-family: "BandaRegularRegular";
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	min-height: 35.5px;
+	border-radius: 8px;
+	border: 1px solid #fff;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+	.btn.btn-blue {
+		background: linear-gradient(90deg, #005c9d, #00acc0);
+	}
+
+		.btn.btn-blue:focus, .btn.btn-blue:active, .btn.btn-blue:hover {
+			background: linear-gradient(90deg, #005c9d, #00acc0) !important;
+			color: #fff !important;
+		}
+
+	.btn.btn-beige {
+		background-color: rgb(187, 169, 142);
+	}
+
+		.btn.btn-beige:focus, .btn.btn-beige:active, .btn.btn-beige:hover {
+			background-color: rgb(187, 169, 142) !important;
+			color: #fff !important;
+		}
+
+	.btn.btn-over-image {
+		box-shadow: 0 0 10px #fff;
+	}
+
+@media (max-width: 575px) {
+	.btn.btn-sm-100 {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+.text-break {
+	word-break: break-word;
+}
